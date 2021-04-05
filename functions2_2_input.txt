@@ -1,0 +1,28 @@
+add_item('Булочка', 15)
+add_item('Зубная паста', 80)
+add_item('Батарейка', 50)
+
+print_receipt()
+
+add_item('Жвачка', 15)
+add_item('Маска', 20)
+add_item('Жвачка', 15)
+add_item('Шоколадка', 49)
+add_item('Энергетик', 102)
+print_receipt()
+
+
+add_item('Сыр', 399)
+add_item('Шампанское', 2000)
+print_receipt()
+
+print_receipt()
+
+add_item('Кошачий корм', 95)
+add_item('Сахар', 43)
+add_item('Сахар', 43)
+add_item('Сахар', 43)
+add_item('Лимон', 80)
+print_receipt()
+
+add_item('Сок', 50)

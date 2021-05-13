@@ -48,7 +48,8 @@ class Train(Transport):
         print(' - поезд. Номер %s' % (self.number))
     def charact(self):
         print('')
-        return "Поезд №%s, c %s вагонами и %s пассажирами в каждом. " % (self.number, self.carriage, self.passenger) + Transport.charact(self)
+        return "Поезд №%s, c %s вагонами и %s пассажирами в каждом. " % (self.number, self.carriage, self.passenger) \
+                + Transport.charact(self)
     def get_of_the_rails(self):
         print('')
         print('Поезд №%s сошел с рельс и потерял один вагон' % (self.number))
